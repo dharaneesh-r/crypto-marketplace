@@ -1,0 +1,45 @@
+.spinner {
+    display: grid;
+    place-self: center;
+    height: 80vh;
+}
+.spin{
+    width: 65px;
+    height: 65px;
+    place-self: center;
+    border : 5px solid #bdbdbd;
+    border-radius: 50%;
+    border-top-color: #4500c6;
+    animation:  rotate 2s infinite;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.coin .description {
+    margin: auto;
+    width: 80%;
+    padding: 20px 0px;
+}
+.coin .title{
+    margin: auto;
+    margin-top: 20px;
+    width: 80%;
+    place-content: center;
+    text-align: center;
+}
+.coin .links {
+    margin : auto;
+    text-align: center;
+}
+.coin .image {
+    width: 25px;
+    height: 25px;
+}
+.details{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: auto;
+}
